@@ -1,0 +1,1 @@
+define(["exports","module","reflux","../../Actions/MyOffice/GetAllUserRealty"],function(e,t,l,r){"use strict";function n(e){return e&&e.__esModule?e:{"default":e}}var u=n(l),i=n(r),s={userRealty:void 0};t.exports=u["default"].createStore({listenables:i["default"],getInitialState:function(){return s},onGetAllUserRealty:function(e){s.userRealty=e,this.trigger(s)}})});

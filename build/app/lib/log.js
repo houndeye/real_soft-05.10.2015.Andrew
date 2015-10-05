@@ -1,0 +1,1 @@
+define(["exports"],function(e){"use strict";function r(e){var r=e.filename.split("/").slice(-2).join("/");return new n.Logger({transports:[new n.transports.Console({colorize:!0,level:"development"==o?"debug":"error",label:r})]})}var n=require("winston"),o=process.env.NODE_ENV;module.exports=r});

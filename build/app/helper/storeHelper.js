@@ -1,0 +1,1 @@
+define(["exports"],function(e){"use strict";function n(e,n){var o=n.map(function(n){var t=e.indexOf(n),o=e.slice(t);return t>0?(o=o.slice(0,n.length),console.log(o,3),o):void 0});return o[t(o)]}function t(e){var n=0,t="";return e.forEach(function(e,o){void 0!=e&&t.length<=e.length&&(t=e,n=o)}),n}Object.defineProperty(e,"__esModule",{value:!0}),e.getPageName=n});

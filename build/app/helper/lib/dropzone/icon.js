@@ -1,0 +1,1 @@
+define(["exports","module","react"],function(e,t,r){"use strict";function a(e){return e&&e.__esModule?e:{"default":e}}var i=a(r);t.exports=i["default"].createClass({displayName:"Icon",render:function(){return i["default"].createElement("div",{"data-filetype":this.props.filetype,className:"filepicker-file-icon"})}})});

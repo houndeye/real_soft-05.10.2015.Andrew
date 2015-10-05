@@ -1,0 +1,1 @@
+define(["exports","module","reflux","../../Actions/MyOffice/GetAllUserClients"],function(e,t,n,i){"use strict";function l(e){return e&&e.__esModule?e:{"default":e}}var r=l(n),s=l(i),u={userClients:void 0};t.exports=r["default"].createStore({listenables:s["default"],getInitialState:function(){return u},onGetAllUserClients:function(e){u.userClients=e,this.trigger(u)}})});

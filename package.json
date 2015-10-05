@@ -1,0 +1,67 @@
+{
+  "name": "real-soft",
+  "version": "0.1.0",
+  "description": "app for realtors",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src./index.js"
+  },
+  "dependencies": {
+    "babel-core": "^5.4.7",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-minify-css": "^1.1.4",
+    "gulp-minify-html": "^1.0.3",
+    "gulp-sass": "^2.0.1",
+    "gulp-uglify": "^1.2.0",
+    "reflux": "0.2.11",
+    "requirejs": "^2.1.18",
+    "co": "^4.6.0",
+    "color": "^0.9.0",
+    "crypto": "0.0.3",
+    "dropzone": "^4.0.1",
+    "ejs": "^2.3.3",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-concat": "^2.6.0",
+    "jquery": "^2.1.4",
+    "koa": "^0.21.0",
+    "koa-better-body": "^1.0.17",
+    "koa-locals": "^0.3.0",
+    "koa-passport": "^1.1.6",
+    "koa-router": "^5.1.2",
+    "koa-session-mongoose": "^0.5.2",
+    "koa-session-store": "^1.1.1",
+    "koa-static": "^1.4.9",
+    "mongoose": "^4.1.0",
+    "nconf": "^0.7.1",
+    "react": "^0.13.3",
+    "react-bootstrap": "^0.23.5",
+    "react-dropzone-component": "^0.4.4",
+    "react-router": "^0.13.3",
+    "react-slider": "https://github.com/VasylHryha/react_slider/tarball/master",
+    "rx": "^2.5.3",
+    "winston": "^1.0.1"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VasylHryha/real_soft"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "koa"
+  ],
+  "license": "MIT",
+
+  "jest": {
+    "rootDir": "./src",
+    "scriptPreprocessor": "../preprocessor.js",
+    "unmockedModulePathPatterns": [
+      "react"
+    ]
+  }
+}

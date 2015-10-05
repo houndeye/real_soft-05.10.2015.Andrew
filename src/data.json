@@ -1,0 +1,816 @@
+{
+  "mainMenu": {
+    "pages": [
+      [
+        "rent",
+        "Оренда"
+      ],
+      [
+        "sale",
+        "Продаж"
+      ],
+      [
+        "daily rent",
+        "Подобова оренда"
+      ],
+      [
+        "more service",
+        "Додаткові послуги"
+      ],
+      [
+        "forum",
+        "Форум"
+      ],
+      [
+        "my office",
+        "Мій кабінет"
+      ]
+    ]
+  },
+  "rent": {
+    "menu": {
+      "types": [
+        [
+          "home",
+          "Житло"
+        ],
+        [
+          "commercial",
+          "Комерція"
+        ]
+      ],
+      "regions": [
+        [
+          "Frankivskiy",
+          "Франківський"
+        ],
+        [
+          "Sychivskiy",
+          "Сихівський"
+        ],
+        [
+          "Lichakivskiy",
+          "Личаківський"
+        ],
+        [
+          "Shvechenkivskiy",
+          "Шевченківський"
+        ],
+        [
+          "Zaliznycnhiy",
+          "Залізничний"
+        ],
+        [
+          "Halitskiy",
+          "Галицький"
+        ]
+      ],
+      "labels": [
+        [
+          "region",
+          "type",
+          "price"
+        ],
+        [
+          "Район",
+          "Тип",
+          "Ціна"
+        ]
+      ],
+      "commercial": {
+        "types": [
+          [
+            "Office",
+            "Офіс"
+          ],
+          [
+            "Shop",
+            "Магазин"
+          ],
+          [
+            "Warehouse",
+            "Складське приміщення"
+          ],
+          [
+            "Cafe",
+            "Кафе"
+          ],
+          [
+            "Restaurant",
+            "Ресторан"
+          ]
+        ],
+        "Office": [
+          [
+            "area"
+          ],
+          [
+            "Площа"
+          ]
+        ],
+        "Shop": [
+          [
+            "area"
+          ],
+          [
+            "Площа"
+          ]
+        ],
+        "Warehouse": [
+          [
+            "area"
+          ],
+          [
+            "Площа"
+          ]
+        ],
+        "Cafe": [
+          [
+            "area"
+          ],
+          [
+            "Площа"
+          ]
+        ],
+        "Restaurant": [
+          [
+            "area"
+          ],
+          [
+            "Площа"
+          ]
+        ]
+      },
+      "home": {
+        "types": [
+          [
+            "House",
+            "Будинок"
+          ],
+          [
+            "Flat",
+            "Квартира"
+          ],
+          [
+            "Room",
+            "Кімната"
+          ]
+        ],
+        "House": [
+          [
+            "rooms",
+            "area"
+          ],
+          [
+            "кімнат",
+            "площа"
+          ]
+        ],
+        "Flat": [
+          [
+            "area",
+            "rooms"
+          ],
+          [
+            "площа",
+            "кімнат"
+          ]
+        ],
+        "Room": [
+          [
+            "area"
+          ],
+          [
+            "площа"
+          ]
+        ]
+      }
+    },
+    "mainSection": {
+      "buttons": [
+        [
+          "search",
+          "пошук"
+        ],
+        [
+          "fastSearch",
+          "швидкий пошук"
+        ]
+      ],
+      "commercial": {
+        "realty": [
+          [
+            "kind",
+            "тип"
+          ],
+          [
+            "price",
+            "ціна"
+          ],
+          [
+            "region",
+            "район"
+          ],
+          [
+            "street",
+            "вулиця"
+          ]
+        ],
+        "client": [
+          [
+            "kind",
+            "тип"
+          ],
+          [
+            "minPrice",
+            "ціна мінімальна"
+          ],
+          [
+            "maxPrice",
+            "ціна максимальна"
+          ],
+          [
+            "region",
+            "район"
+          ]
+        ]
+      },
+      "home": {
+        "realty": [
+          [
+            "rooms",
+            "кімнат"
+          ],
+          [
+            "price",
+            "ціна"
+          ],
+          [
+            "region",
+            "район"
+          ],
+          [
+            "street",
+            "вулиця"
+          ]
+        ],
+        "client": [
+          [
+            "kind",
+            "тип"
+          ],
+          [
+            "minPrice",
+            "ціна мінімальна"
+          ],
+          [
+            "maxPrice",
+            "ціна максимальна"
+          ],
+          [
+            "region",
+            "район"
+          ]
+        ]
+      }
+    }
+  },
+  "sale": {
+  },
+  "my office": {
+    "pageContent": {
+      "types": [
+        [
+          "realty",
+          "нерухомість"
+        ],
+        [
+          "clientList",
+          "спиок клієнтів"
+        ],
+        [
+          "personalData",
+          "персональні дані"
+        ]
+      ],
+      "realty": {
+        "labelsNav": [
+          [
+            "active",
+            "inactive"
+          ],
+          [
+            "активні",
+            "неактивні"
+          ]
+        ],
+        "view": {
+          "types": [
+            [
+              "commercial",
+              "комерція"
+            ],
+            [
+              "home",
+              "житло"
+            ]
+          ],
+          "addressForm": [
+            [
+              "street",
+              "вулиця"
+            ],
+            [
+              "region",
+              "район"
+            ],
+            [
+              "city",
+              "місто"
+            ],
+            [
+              "state",
+              "область"
+            ]
+          ],
+          "commercial": {
+            "labels": [
+              [
+                "kind",
+                "тип"
+              ],
+              [
+                "price",
+                "ціна"
+              ],
+              [
+                "region",
+                "район"
+              ],
+              [
+                "street",
+                "вулиця"
+              ]
+            ],
+            "types": [
+              [
+                "Office",
+                "Офіс"
+              ],
+              [
+                "Shop",
+                "Магазин"
+              ],
+              [
+                "Warehouse",
+                "Складське приміщення"
+              ],
+              [
+                "Cafe",
+                "Кафе"
+              ],
+              [
+                "Restaurant",
+                "Ресторан"
+              ]
+            ],
+            "Office": [
+              [
+                "floors",
+                "area",
+                "price",
+                "condition",
+                "description"
+              ],
+              [
+                "поверх",
+                "площа",
+                "ціна",
+                "стан",
+                "опис"
+              ]
+            ],
+            "Shop": [
+              [
+                "floors",
+                "area",
+                "price",
+                "condition",
+                "description"
+              ],
+              [
+                "поверх",
+                "площа",
+                "ціна",
+                "стан",
+                "опис"
+              ]
+            ],
+            "Warehouse": [
+              [
+                "area",
+                "price",
+                "condition",
+                "description"
+              ],
+              [
+                "площа",
+                "ціна",
+                "стан",
+                "опис"
+              ]
+            ],
+            "Cafe": [
+              [
+                "floors",
+                "area",
+                "price",
+                "condition",
+                "description"
+              ],
+              [
+                "поверх",
+                "площа",
+                "ціна",
+                "стан",
+                "опис"
+              ]
+            ],
+            "Restaurant": [
+              [
+                "floors",
+                "area",
+                "price",
+                "condition",
+                "description"
+              ],
+              [
+                "поверх",
+                "площа",
+                "ціна",
+                "стан",
+                "опис"
+              ]
+            ]
+          },
+          "home": {
+            "labels": [
+              [
+                "rooms",
+                "кімнат"
+              ],
+              [
+                "price",
+                "ціна"
+              ],
+              [
+                "region",
+                "район"
+              ],
+              [
+                "street",
+                "вулиця"
+              ]
+            ],
+            "types": [
+              [
+                "House",
+                "Будинок"
+              ],
+              [
+                "Flat",
+                "Квартира"
+              ],
+              [
+                "Room",
+                "Кімната"
+              ]
+            ],
+            "House": [
+              [
+                "floors",
+                "rooms",
+                "area",
+                "description",
+                "price"
+              ],
+              [
+                "поверхів",
+                "кімнат",
+                "площа",
+                "опис",
+                "ціна"
+              ]
+            ],
+            "Flat": [
+              [
+                "floor",
+                "area",
+                "rooms",
+                "condition",
+                "description",
+                "price"
+              ],
+              [
+                "поверхів",
+                "площа",
+                "кімнат",
+                "стан",
+                "опис",
+                "ціна"
+              ]
+            ],
+            "Room": [
+              [
+                "floor",
+                "area",
+                "condition",
+                "description",
+                "price"
+              ],
+              [
+                "поверхів",
+                "площа",
+                "стан",
+                "опис",
+                "ціна"
+              ]
+            ]
+          },
+          "buttons": {
+            "save": [
+              "Save",
+              "Зберегти"
+            ],
+            "edit": [
+              "Edit",
+              "Редагувати"
+            ],
+            "exit": [
+              "Exit",
+              "Вихід"
+            ]
+          }
+        }
+      },
+      "clientList": {
+        "regions": [
+          [
+            "Frankivskiy",
+            "Франківський"
+          ],
+          [
+            "Sychivskiy",
+            "Сихівський"
+          ],
+          [
+            "Lichakivskiy",
+            "Личаківський"
+          ],
+          [
+            "Shvechenkivskiy",
+            "Шевченківський"
+          ],
+          [
+            "Zaliznycnhiy",
+            "Залізничний"
+          ],
+          [
+            "Halitskiy",
+            "Галицький"
+          ]
+        ],
+        "labelsNav": [
+          [
+            "active",
+            "inactive"
+          ],
+          [
+            "активні",
+            "неактивні"
+          ]
+        ],
+        "labels": [
+          [
+            "kind",
+            "тип"
+          ],
+          [
+            "minPrice",
+            "ціна мінімальна"
+          ],
+          [
+            "maxPrice",
+            "ціна максимальна"
+          ],
+          [
+            "region",
+            "район"
+          ]
+        ],
+        "types": [
+          [
+            "commercial",
+            "комерція"
+          ],
+          [
+            "home",
+            "житло"
+          ]
+        ],
+        "commercial": {
+          "types": [
+            [
+              "Office",
+              "Офіс"
+            ],
+            [
+              "Shop",
+              "Магазин"
+            ],
+            [
+              "Warehouse",
+              "Складське приміщення"
+            ],
+            [
+              "Cafe",
+              "Кафе"
+            ],
+            [
+              "Restaurant",
+              "Ресторан"
+            ]
+          ],
+          "Office": [
+            [
+              "area",
+              "minPrice",
+              "maxPrice",
+              "description"
+            ],
+            [
+              "площа",
+              "мінімальна ціна",
+              "максимальна ціна",
+              "опис"
+            ]
+          ],
+          "Shop": [
+            [
+              "area",
+              "minPrice",
+              "maxPrice",
+              "description"
+            ],
+            [
+              "площа",
+              "мінімальна ціна",
+              "максимальна ціна",
+              "опис"
+            ]
+          ],
+          "Warehouse": [
+            [
+              "area",
+              "minPrice",
+              "maxPrice",
+              "description"
+            ],
+            [
+              "площа",
+              "мінімальна ціна",
+              "максимальна ціна",
+              "опис"
+            ]
+          ],
+          "Cafe": [
+            [
+              "area",
+              "minPrice",
+              "maxPrice",
+              "description"
+            ],
+            [
+              "площа",
+              "мінімальна ціна",
+              "максимальна ціна",
+              "опис"
+            ]
+          ],
+          "Restaurant": [
+            [
+              "area",
+              "minPrice",
+              "maxPrice",
+              "description"
+            ],
+            [
+              "площа",
+              "мінімальна ціна",
+              "максимальна ціна",
+              "опис"
+            ]
+          ]
+        },
+        "home": {
+          "types": [
+            [
+              "House",
+              "Будинок"
+            ],
+            [
+              "Flat",
+              "Квартира"
+            ],
+            [
+              "Room",
+              "Кімната"
+            ]
+          ],
+          "House": [
+            [
+              "rooms",
+              "area",
+              "description",
+              "minPrice",
+              "maxPrice"
+            ],
+            [
+              "кімнат",
+              "площа",
+              "опис",
+              "мінімальна ціна",
+              "максимальна ціна"
+            ]
+          ],
+          "Flat": [
+            [
+              "area",
+              "rooms",
+              "description",
+              "minPrice",
+              "maxPrice"
+            ],
+            [
+              "площа",
+              "кімнат",
+              "опис",
+              "мінімальна ціна",
+              "максимальна ціна"
+            ]
+          ],
+          "Room": [
+            [
+              "area",
+              "description",
+              "minPrice",
+              "maxPrice"
+            ],
+            [
+              "площа",
+              "опис",
+              "мінімальна ціна",
+              "максимальна ціна"
+            ]
+          ]
+        },
+        "buttons": {
+          "save": [
+            "Save",
+            "Зберегти"
+          ],
+          "edit": [
+            "Edit",
+            "Редагувати"
+          ],
+          "exit": [
+            "Exit",
+            "Вихід"
+          ]
+        }
+      },
+      "personalData": [
+        [
+          "Office",
+          "Офіс"
+        ],
+        [
+          "Shop",
+          "Магазин"
+        ],
+        [
+          "Warehouse",
+          "Складське приміщення"
+        ],
+        [
+          "Cafe",
+          "Кафе"
+        ],
+        [
+          "Restaurant",
+          "Ресторан"
+        ]
+      ]
+    }
+  }
+}

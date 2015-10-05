@@ -1,0 +1,1 @@
+define(["exports","module","reflux"],function(e,s,t){"use strict";function a(e){return e&&e.__esModule?e:{"default":e}}var u=a(t);s.exports=u["default"].createActions(["setImages","saveImages","updateImages","removeImages","setImagesId"])});

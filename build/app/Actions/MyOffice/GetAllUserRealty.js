@@ -1,0 +1,1 @@
+define(["exports","module","reflux"],function(e,t,r){"use strict";function u(e){return e&&e.__esModule?e:{"default":e}}var l=u(r);t.exports=l["default"].createActions(["getAllUserRealty"])});

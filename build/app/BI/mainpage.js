@@ -1,0 +1,1 @@
+define(["exports","../Components/mainPage","../helper/ajax"],function(e,n,r){"use strict";var t="login";r.getData(t).forEach(function(e){return n.render(e)})});

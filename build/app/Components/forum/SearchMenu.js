@@ -1,0 +1,1 @@
+define(["exports","module","react"],function(e,t,a){"use strict";function n(e){return e&&e.__esModule?e:{"default":e}}var r=n(a);t.exports=r["default"].createClass({displayName:"SearchMenu",render:function(){return r["default"].createElement("nav",{className:"search-menu container_12"})}})});

@@ -1,0 +1,24 @@
+{
+  "port": 5000,
+  "host": "http://localhost",
+  "mongoose": {
+    "uri": "mongodb://heroku_mj6tzbbp:3cqje8cnj6el673eh69rqejt02@ds053448.mongolab.com:53448/heroku_mj6tzbbp",
+    "localUri":"mongodb://localhost/aliga",
+    "options": {
+      "server": {
+        "socketOptions": {
+          "keepAlive": 1
+        }
+      }
+    }
+  },
+  "session": {
+    "name": "KillerIsJim",
+    "key": "sid",
+    "cookie": {
+      "path": "/",
+      "httpOnly": true,
+      "maxAge": null
+    }
+  }
+}

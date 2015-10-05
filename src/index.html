@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>LvivOnline (Львів Онлайн) - афіша та анонс подій Львова. Відпочинок у Львові</title>
+
+
+    <link rel="stylesheet" href="build/style/styles.css">
+    <link rel="stylesheet" href="src/style/bootstrap.css">
+    <link rel="stylesheet" href="src/style/slider.css">
+    <link rel="stylesheet" href="src/style/Map.css">
+
+</head>
+<body>
+<div id="content"></div>
+
+<script>
+    var requirejs = {
+        paths: {
+            react: '../../../node_modules/react/dist/react',
+            rx: '../../../node_modules/rx/dist/rx',
+            reflux: '../../../node_modules/reflux/dist/reflux',
+            react_bootstrap: '../../../node_modules/react-bootstrap/dist/react-bootstrap',
+            react_slider: '../../../node_modules/react-slider/react-slider',
+            jquery: '../../../node_modules/jquery/dist/jquery.min',
+            react_avatar: '../../../node_modules/react-avatar-cropper/dist/ReactAvatarCropper.min',
+            dropzone: '../../../node_modules/dropzone/dist/dropzone-amd-module'
+        }
+    }
+
+</script>
+<script data-main="build/app/BI/main.js" src="../node_modules/requirejs/require.js"></script>
+</body>
+</html>

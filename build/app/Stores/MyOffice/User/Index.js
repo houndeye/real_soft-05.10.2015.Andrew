@@ -1,0 +1,1 @@
+define(["exports","module","reflux","../../../Actions/MyOffice/User/Index"],function(e,t,n,r){"use strict";function i(e){return e&&e.__esModule?e:{"default":e}}var u=i(n),s=i(r),o={user:void 0};t.exports=u["default"].createStore({listenables:s["default"],getInitialState:function(){return o},onFindUser:function(e){o.user=e,this.trigger(o)}})});

@@ -1,0 +1,1 @@
+define(["exports"],function(e){"use strict";e.uploadHandler=regeneratorRuntime.mark(function t(e){var r;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return r=this.request.body.fields,this.response.body={name:r.original_filename,path:r.url,size:r.bytes},this.response.status=200,t.next=5,e;case 5:case"end":return t.stop()}},t,this)})});

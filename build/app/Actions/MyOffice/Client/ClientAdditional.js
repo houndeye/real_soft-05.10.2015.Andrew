@@ -1,0 +1,1 @@
+define(["exports","module","reflux"],function(e,t,i){"use strict";function r(e){return e&&e.__esModule?e:{"default":e}}var u=r(i);t.exports=u["default"].createActions(["view","closeView","changeReadableWritableView"])});

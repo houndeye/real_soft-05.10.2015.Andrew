@@ -1,0 +1,1 @@
+define(["exports","module","reflux"],function(e,d,r){"use strict";function s(e){return e&&e.__esModule?e:{"default":e}}var t=s(r);d.exports=t["default"].createActions(["sendAddress","sendAddressArr","sendMapCoordinate"])});

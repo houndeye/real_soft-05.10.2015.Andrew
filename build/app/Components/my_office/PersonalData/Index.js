@@ -1,0 +1,1 @@
+define(["exports","module","react","reflux"],function(e,t,n,a){"use strict";function l(e){return e&&e.__esModule?e:{"default":e}}var r=l(n);l(a);t.exports=r["default"].createClass({displayName:"Index",render:function(){return r["default"].createElement("main",null,r["default"].createElement("h1",null,"PersonalData"))}})});

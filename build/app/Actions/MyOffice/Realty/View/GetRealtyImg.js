@@ -1,0 +1,1 @@
+define(["exports","module","reflux"],function(e,t,u){"use strict";function r(e){return e&&e.__esModule?e:{"default":e}}var n=r(u);t.exports=n["default"].createActions(["getRealtyImg"])});

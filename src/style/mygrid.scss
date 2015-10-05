@@ -1,0 +1,13 @@
+$page_width: 960px;
+$gup_width: $page_width/100;
+@function calculate_grid($state_width,$column_number) {
+  $state_width: $page_width/$state_width;
+  @return ($state_width - $column_number*$gup_width)/$column_number;
+}
+
+@each $header, $state_width, $column_number in (g:1 12, g:2 12) {
+  $width: calculate_grid($state_width, $column_number);
+  #{$header} {
+    width: $width;
+  }
+}

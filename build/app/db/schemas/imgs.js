@@ -1,0 +1,1 @@
+define(["exports"],function(e){"use strict";var t=require(__dirname+"/../../lib/mongoose"),i=new t.Schema({realtyId:{type:String,unique:!0,required:!0},image:[{name:String,path:String,size:Number}],date:{type:Date,"default":Date.now}});e.Img=t.model("imgs",i)});

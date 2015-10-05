@@ -1,0 +1,1 @@
+define(["exports","module","reflux"],function(e,t,a){"use strict";function n(e){return e&&e.__esModule?e:{"default":e}}var r=n(a);t.exports=r["default"].createActions(["getRealtyAddress","getRealtyParams","saveClient","updateClient","removeClient","changeClientActiveParam"])});

@@ -1,0 +1,1 @@
+define(["exports","module","react"],function(e,t,a){"use strict";function r(e){return e&&e.__esModule?e:{"default":e}}var l=r(a);t.exports=l["default"].createClass({displayName:"RealtyDataHandler",render:function(){console.log(this.props);this.props.data;return l["default"].createElement("div",null)}})});

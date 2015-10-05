@@ -1,0 +1,1 @@
+define(["exports","module","reflux","../../Actions/Rent/ShowMainInfo"],function(t,e,n,i){"use strict";function o(t){return t&&t.__esModule?t:{"default":t}}var r=o(n),u=o(i),f="";e.exports=r["default"].createStore({listenables:[u["default"]],getInitialState:function(){return{info:f}},onClick:function(t){this.trigger({info:t})}})});

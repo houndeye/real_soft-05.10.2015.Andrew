@@ -1,0 +1,1 @@
+define(["exports","module","reflux","../../../../Actions/MyOffice/Realty/View/Inputs"],function(t,e,n,i){"use strict";function u(t){return t&&t.__esModule?t:{"default":t}}var a=u(n),r=u(i),o={inputData:void 0};e.exports=a["default"].createStore({listenables:[r["default"]],getInitialState:function(){return o},onSetInput:function(t){o.inputData=t,this.trigger(o)}})});

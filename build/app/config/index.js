@@ -1,0 +1,1 @@
+define(["exports"],function(e){"use strict";var i=require("nconf"),n=require("path");i.argv().env().file({file:n.join(__dirname,"config.json")}),module.exports=i});

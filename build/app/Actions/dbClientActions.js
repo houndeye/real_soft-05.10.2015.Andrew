@@ -1,0 +1,1 @@
+define(["exports","module","reflux"],function(e,t,i){"use strict";function l(e){return e&&e.__esModule?e:{"default":e}}var n=l(i);t.exports=n["default"].createActions(["findAllActiveClients","findAllUserClients","findAllActiveClientsWithParams"])});

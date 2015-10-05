@@ -1,0 +1,35 @@
+@import "block";
+@import "logos";
+@import "follow";
+@import "copyright";
+@import "main-menu";
+@import "link-list";
+@import "grid";
+@import "header";
+@import "wrapper";
+@import "main";
+@import "footer";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f7f4ef;
+  font: 12px arial;
+  color: #6b6966;
+  a {
+    text-decoration: none;
+    color: #575757;
+  }
+  h1 {
+    font-weight: normal;
+  }
+}
+
+
+
+
+
+

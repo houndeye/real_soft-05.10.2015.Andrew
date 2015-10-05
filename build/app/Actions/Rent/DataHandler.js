@@ -1,0 +1,1 @@
+define(["exports","module","reflux"],function(e,t,r){"use strict";function a(e){return e&&e.__esModule?e:{"default":e}}var l=a(r);t.exports=l["default"].createActions(["handleRealty","setRealty","setSliderParams"])});

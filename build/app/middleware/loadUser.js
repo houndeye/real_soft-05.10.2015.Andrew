@@ -1,0 +1,1 @@
+define(["exports"],function(s){"use strict";var e=require(process.env.HOME+"/src/app/models/user").User;module.exports=function(s){return this.session.user=null,this.request.session.user?void e.findById(this.request.session.user,function(e,r){return e?s(e):(this.response.body.user=response.session.user=r,void s())}):s()}});

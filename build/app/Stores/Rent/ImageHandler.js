@@ -1,0 +1,1 @@
+define(["exports","module","reflux","../../Actions/Rent/ImageHandler"],function(e,t,n,r){"use strict";function u(e){return e&&e.__esModule?e:{"default":e}}var a=u(n),o=u(r),f=new Map;t.exports=a["default"].createStore({listenables:[o["default"]],onSetImages:function(e){e.forEach(function(e,t){f.set(e.realtyId,e)}),this.trigger(f)},getImage:function(e,t){return f.get(e)}})});
